@@ -13,3 +13,6 @@ $ touch .gitignore
 Install express js
 $ npm init
 $ npm install express --save
+
+Run application
+$ node index.js
