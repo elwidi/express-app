@@ -45,8 +45,10 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.io.on('connection', function(socket){  
-  console.log('a user connected');
+app.io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    app.io.emit('chat message', msg);
+  });
 });
 
 module.exports = app;
