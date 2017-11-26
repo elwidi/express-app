@@ -14,5 +14,9 @@ Install express js
 $ npm init
 $ npm install express --save
 
+Install socket io
+$ npm install socket.io --save
+$ npm install jquery --save
+
 Run application
 $ node index.js
