@@ -1,5 +1,7 @@
 # README #
 
+Step by step build this app from beginning.
+
 Use the application generator tool, express-generator, to quickly create an application skeleton (kerangka applikasi).
 1. Install express generator in global. 
 $ npm install express-generator -g
@@ -20,8 +22,15 @@ git commit -m "first commit"
 8. Add .gitignore and write file path for ignore
 $ touch .gitignore
 
-Install socket io for websocket
+Install socket io for websocket and then save in package.json
 $ npm install socket.io --save
+
+Step by step run this app from clone this repository.
+1. fork my repository
+2. clone this repository on your local
+$ git clone [url]
+3. Install dependencies
+$ npm install
 
 Run application on MAC or Linux
 $ DEBUG=express-app:* npm start
